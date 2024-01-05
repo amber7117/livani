@@ -15,8 +15,8 @@ const Index = ({user,products,store}) => {
       <Navbar user={user} store={store} />
        <MainBanner />
       <BlogGridFullWidth />
-      <FacilitySlider />
-      <InstagramFeed />
+
+
       <Footer />
     </>
   );
