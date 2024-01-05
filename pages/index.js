@@ -12,12 +12,6 @@ const Blog4 = ({ user, store }) => {
     <>
       <TopHeader user={user} />
       <Navbar user={user} store={store} />
-      <PageBanner
-        pageTitle="Grid (Full Width)"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="Blog"
-      />
       <BlogGridFullWidth />
       <FacilitySlider />
       <InstagramFeed />
