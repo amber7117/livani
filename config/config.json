@@ -1,23 +1,23 @@
 {
   "development": {
     "username": "postgres",
-    "password": "7BmSrMazDw8S5sJE",
+    "password": "123456",
     "database": "livani",
-    "host": "172.208.105.28",
-   "dialect": "livani"
+    "host": "127.0.0.1",
+   "dialect": "postgres"
   },
   "test": {
-    "username": "livani",
-    "password": "7BmSrMazDw8S5sJE",
-    "database": "livani",
-    "host": "172.208.105.28",
-   "dialect": "livani"
+    "username": "postgres",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+   "dialect": "postgres"
   },
   "production": {
-    "username": "livani",
-    "password": "7BmSrMazDw8S5sJE",
-    "database": "livani",
-    "host": "172.208.105.28",
-   "dialect": "livani"
+    "username": "postgres",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+   "dialect": "postgres"
   }
 }
