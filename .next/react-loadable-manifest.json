@@ -1,0 +1,154 @@
+{
+  "..\\components\\Admin\\MonthlyRevenue.js -> react-apexcharts": {
+    "id": 7229,
+    "files": [
+      "static/chunks/6c44d60f.6a8e0bc51bbb1591.js",
+      "static/chunks/7229.9d1ea427271bcc99.js"
+    ]
+  },
+  "..\\components\\Admin\\ProductTrendsByMonth.js -> react-apexcharts": {
+    "id": 7229,
+    "files": [
+      "static/chunks/6c44d60f.6a8e0bc51bbb1591.js",
+      "static/chunks/7229.9d1ea427271bcc99.js"
+    ]
+  },
+  "..\\components\\BlogDetails\\BlogDetailsThree.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\Categories\\CategoriesOneGrid.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\Common\\FacilitySlider.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\Common\\FacilitySliderTwo.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\Common\\InstagramFeed.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\Common\\Partner.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\Common\\ShopByBrand.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\Common\\ShopByBrandTwo.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\Common\\Testimonials.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\Covid19\\Banner.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\Covid19\\InstagramFeed.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\HomeElectronics\\Testimonials.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\HomeFour\\Banner.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\HomeFour\\OfferProducts.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\HomeJewelry\\Testimonials.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\HomeOne\\MainBanner.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\HomeThree\\Banner.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\HomeThree\\BestSellerProducts.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\HomeThree\\RecentProducts.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\HomeThree\\TrendingProducts.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\HomeTwo\\Banner.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\ProductDetails\\ProductImageThree.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  },
+  "..\\components\\ProductDetails\\RelatedProducts.js -> react-owl-carousel3": {
+    "id": 8694,
+    "files": [
+      "static/chunks/617777a1.7295eaed28f44d82.js"
+    ]
+  }
+}
