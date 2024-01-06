@@ -14,6 +14,7 @@ const Index = ({user,products,store}) => {
     <>
       <TopHeader user={user} />
       <Navbar user={user} store={store} />
+    <Blogtwo />
        <MainBanner />
       <BlogGridFullWidth />
 
