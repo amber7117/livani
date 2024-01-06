@@ -27,7 +27,7 @@ class BlogDetailsTwo extends Component {
        <div className='article-video'>
       <iframe src="https://www.pornhub.com/embed/657b20c45d388" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
       </div>
-       <div className='article-video'>
+   
 
  <div className='article-video'>
 <iframe src="https://www.pornhub.com/embed/65687ea9e3e96" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
