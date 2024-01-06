@@ -299,7 +299,7 @@ class BlogDetailsTwo extends Component {
           </div>
         </div>
       </section>
-    );
+    )
   }
 }
 
