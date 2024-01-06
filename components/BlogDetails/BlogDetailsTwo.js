@@ -3,6 +3,8 @@ import Link from 'next/link';
 import CommentsList from './CommentsList';
 import BlogSidebar from '../Blog/BlogSidebar';
 
+
+
 class BlogDetailsTwo extends Component {
   render() {
     return (
@@ -12,35 +14,8 @@ class BlogDetailsTwo extends Component {
             <div className='col-lg-8 col-md-12'>
               <div className='blog-details-desc'>
                 <div className='article-video'>
-	    		<iframe src="https://www.pornhub.com/embed/64bab88ec37ef"></iframe>
-	    	</div>
-             	<div className='article-video'>
-      			<iframe src="https://www.pornhub.com/embed/64bab88ec37ef" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
-	    	</div>
-	       <div className='article-video'>
-                  <iframe src="https://www.pornhub.com/embed/64bab88ec37ef"></iframe>
+                  <iframe src='https://www.youtube.com/embed/bk7McNUjWgw'></iframe>
                 </div>
-	      <div className='article-video'>
-      		   <iframe src="https://www.pornhub.com/embed/65781ff4aa1f0" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
-             </div>
-	    <div className='article-video'>
-      		<iframe src="https://www.pornhub.com/embed/64da8334365f7" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
-      	   </div>
-	  <div className='article-video'>
-	    <iframe src="https://www.pornhub.com/embed/6478b624850bf" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
-	  </div>
-          <div className='article-video'>
-	    	<iframe src="https://www.pornhub.com/embed/657b20c45d388" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
-	  </div>
-	  <div className='article-video'>
-	    	<iframe src="https://www.pornhub.com/embed/65687ea9e3e96" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
-	  </div>
-          <div className='article-video'><
-	    	iframe src="https://www.pornhub.com/embed/ph6149f33dcbe3a" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
-      	  </div>
-	  <div className='article-video'>
-		<iframe src="https://www.pornhub.com/embed/65769e14ee10c" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
-	  </div>
 
                 <div className='article-content'>
                   <div className='entry-meta'>
@@ -69,10 +44,40 @@ class BlogDetailsTwo extends Component {
                     </ul>
                   </div>
 
-                
+                  <h3>The #1 eCommerce blog to grow your business</h3>
 
-               
-               
+                  <p>
+                    Quuntur magni dolores eos qui ratione voluptatem sequi
+                    nesciunt. Neque porro quia non numquam eius modi tempora
+                    incidunt ut labore et dolore magnam dolor sit amet,
+                    consectetur adipisicing.
+                  </p>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in sed quia non
+                    numquam eius modi tempora incidunt ut labore et dolore
+                    magnam aliquam quaerat voluptatem.
+                  </p>
+
+                  <blockquote>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its layout.
+                    </p>
+                    <cite>Tom Cruise</cite>
+                  </blockquote>
+
+                  <p>
+                    Quuntur magni dolores eos qui ratione voluptatem sequi
+                    nesciunt. Neque porro quia non numquam eius modi tempora
+                    incidunt ut labore et dolore magnam dolor sit amet,
+                    consectetur adipisicing.
+                  </p>
 
                   <ul className='wp-block-gallery columns-3'>
                     <li className='blocks-gallery-item'>
