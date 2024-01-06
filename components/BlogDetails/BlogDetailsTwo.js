@@ -17,9 +17,10 @@ class BlogDetailsTwo extends Component {
                 </div>
              <div className='article-video'>
       <iframe src="https://www.pornhub.com/embed/65781ff4aa1f0" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
-    
                 </div>
-
+  <div className='article-video'>
+      <iframe src="https://www.pornhub.com/embed/64da8334365f7" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
+      </div>
                 <div className='article-content'>
                   <div className='entry-meta'>
                     <ul>
