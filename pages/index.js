@@ -1,6 +1,8 @@
+import React, { Component } from "react";
 import TopHeader from "../components/Layouts/TopHeader";
 import Navbar from "../components/Layouts/Navbar";
 import GalleryThreeGridFullWidth from "../components/Gallery/GalleryThreeGridFullWidth";
+import BlogDetailsThree from "../components/BlogDetails/BlogDetailsThree";
 import Footer from "../components/Layouts/Footer2";
 
 const Index = ({ user, store }) => {
@@ -8,10 +10,13 @@ const Index = ({ user, store }) => {
     <>
       <TopHeader user={user} />
       <Navbar user={user} store={store} />
-      <GalleryThreeGridFullWidth />
+       <GalleryThreeGridFullWidth />
+      <BlogDetailsThree />
+ 
       <Footer />
     </>
   );
 };
 
 export default Index;
+
