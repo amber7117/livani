@@ -4,8 +4,8 @@ import { useStore } from "../store";
 import { ToastProvider } from "react-toast-notifications";
 import { parseCookies, destroyCookie } from "nookies";
 import { redirectUser } from "../utils/auth";
-//import baseUrl from "../utils/baseUrl";
-//import axios from "axios";
+import baseUrl from "../utils/baseUrl";
+import axios from "axios";
 
 import "../public/scss/bootstrap.min.css";
 import "../public/scss/animate.min.css";
