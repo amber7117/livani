@@ -74,11 +74,8 @@ class GalleryThreeGridFullWidth extends Component {
             </div>
 
             <div className='col-lg-4 col-md-6'>
-              <div className='single-gallery-item'>
-                <img
-                  src='../images/gallery/gallery2.jpg'
-                  alt='image'
-                />
+              <div className='article-video'>
+                      <iframe src="https://www.pornhub.com/embed/65687ea9e3e96" frameborder="0" width="528" height="526" scrolling="no" allowfullscreen></iframe>
 
                 <div className='gallery-content'>
                   <span>TWIST SHIRT</span>
@@ -98,11 +95,8 @@ class GalleryThreeGridFullWidth extends Component {
             </div>
 
             <div className='col-lg-4 col-md-6'>
-              <div className='single-gallery-item'>
-                <img
-                  src='../images/gallery/gallery3.jpg'
-                  alt='image'
-                />
+              <div className='article-video'>
+               <iframe src="https://www.pornhub.com/embed/ph6149f33dcbe3a" frameborder="0" width="528" height="526" scrolling="no" allowfullscreen></iframe>
 
                 <div className='gallery-content'>
                   <span>ECOSMART</span>
@@ -123,10 +117,7 @@ class GalleryThreeGridFullWidth extends Component {
 
             <div className='col-lg-4 col-md-6'>
               <div className='single-gallery-item'>
-                <img
-                  src='../images/gallery/gallery4.jpg'
-                  alt='image'
-                />
+               <iframe src="https://www.pornhub.com/embed/657b20c45d388" frameborder="0" width="528" height="526" scrolling="no" allowfullscreen></iframe>
 
                 <div className='gallery-content'>
                   <span>SMART SHIRT</span>
