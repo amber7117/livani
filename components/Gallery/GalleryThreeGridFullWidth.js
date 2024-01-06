@@ -222,7 +222,7 @@ class GalleryThreeGridFullWidth extends Component {
 
             <div className='col-lg-4 col-md-6'>
               <div className='single-gallery-item'>
-                <iframe src="https://www.xvideos.com/embedframe/47945797" frameborder=0 width=528 height=526 scrolling=no allowfullscreen=allowfullscreen></iframe>
+                <iframe src="https://www.xvideos.com/embedframe/47945797"  width="528" height="526" scrolling="no"></iframe>
 
                 <div className='gallery-content'>
                   <span>TWIST SHIRT</span>
@@ -243,7 +243,7 @@ class GalleryThreeGridFullWidth extends Component {
 
             <div className='col-lg-4 col-md-6'>
               <div className='single-gallery-item'>
-                <iframe src="https://www.xvideos.com/embedframe/13542197" frameborder=0 width=528 height=526 scrolling=no allowfullscreen=allowfullscreen></iframe>
+                <iframe src="https://www.xvideos.com/embedframe/13542197" width="528" height="526" scrolling="no"></iframe>
 
                 <div className='gallery-content'>
                   <span>SHIRT</span>
@@ -264,7 +264,7 @@ class GalleryThreeGridFullWidth extends Component {
 
             <div className='col-lg-4 col-md-6'>
               <div className='single-gallery-item'>
-                <iframe src="https://www.xvideos.com/embedframe/13542259" frameborder=0 width=528 height=526 scrolling=no allowfullscreen=allowfullscreen></iframe>
+                <iframe src="https://www.xvideos.com/embedframe/13542259" width="528" height="526"></iframe>
 
                 <div className='gallery-content'>
                   <span>T-SHIRT</span>
