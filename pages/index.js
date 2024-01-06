@@ -18,8 +18,8 @@ return (
 <MainBanner />
 <BlogGridFullWidth />
 <Footer />
-)
-}
+   </>
+   )
 }
 
 
