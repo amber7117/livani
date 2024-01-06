@@ -69,31 +69,6 @@ class BlogDetailsTwo extends Component {
                     </ul>
                   </div>
 
-
-
-                  <p>
-                    Quuntur magni dolores eos qui ratione voluptatem sequi
-                    nesciunt. Neque porro quia non numquam eius modi tempora
-                    incidunt ut labore et dolore magnam dolor sit amet,
-                    consectetur adipisicing.
-                  </p>
-
-                  <ul className='wp-block-gallery columns-3'>
-                    <li className='blocks-gallery-item'>
-                      <figure>
-                        <img
-                          src='../images/blog/blog1.jpg'
-                          alt='image'
-                        />
-                      </figure>
-                    </li>
-
- 
-                  </ul>
-
-
-         
-           
                 </div>
 
                 <div className='article-footer'>
@@ -147,40 +122,6 @@ class BlogDetailsTwo extends Component {
                         </Link>
                       </li>
                     </ul>
-                  </div>
-                </div>
-
-                <div className='article-author'>
-                  <div className='author-profile-header'></div>
-                  <div className='author-profile'>
-                    <div className='author-profile-title'>
-                      <img
-                        src='../images/user1.jpg'
-                        className='shadow-sm'
-                        alt='image'
-                      />
-
-                      <div className='author-profile-title-details d-flex justify-content-between'>
-                        <div className='author-profile-details'>
-                          <h4>Chris Orwig</h4>
-                          <span className='d-block'>
-                            Photographer, Author, Writer
-                          </span>
-                        </div>
-
-                        <div className='author-profile-raque-profile'>
-                          <Link href='#'>
-                            <a className='d-inline-block'>
-                              View profile on Livani
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                    <p>
-                      Orwig is a celebrated photographer, author, and writer who
-                      brings passion to everything he does.
-                    </p>
                   </div>
                 </div>
 
@@ -253,7 +194,7 @@ class BlogDetailsTwo extends Component {
           </div>
         </div>
       </section>
-    );
+    )
   }
 }
 
