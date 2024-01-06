@@ -115,33 +115,7 @@ const Navbar = ({ user, store }) => {
 											</a>
 										</Link>
 
-										<ul className="dropdown-menu">
-											<li className="nav-item">
-												<Link
-													href="/"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Fashion Style One
-													</a>
-												</Link>
-											</li>
-
-											
-											<li className="nav-item">
-												<Link
-													href="/furniture"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Furniture Store
-														<span>New</span>
-													</a>
-												</Link>
-											</li>
-
-										 
-										</ul>
+									
 									</li>
 
 									<li className="nav-item megamenu">
@@ -173,6 +147,17 @@ const Navbar = ({ user, store }) => {
 																		</a>
 																	</Link>
 																</li>
+																				<li className="nav-item">
+												<Link
+													href="/furniture"
+													activeClassName="active"
+												>
+													<a className="nav-link">
+														Furniture Store
+														<span>New</span>
+													</a>
+												</Link>
+											</li>
 
 																<li>
 																	<Link
