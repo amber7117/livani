@@ -12,7 +12,7 @@ class BlogDetailsTwo extends Component {
             <div className='col-lg-8 col-md-12'>
               <div className='blog-details-desc'>
                 <div className='article-video'>
-                  <iframe src='https://www.youtube.com/embed/bk7McNUjWgw'></iframe>
+                  <video loop="" id="media-viewer-video" style="background-image: url(&quot;blob:https://web.telegram.org/2cc52699-72ed-440e-b7ba-46bbb4d42a97&quot;);"></video>
                 </div>
 
                 <div className='article-content'>
