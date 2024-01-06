@@ -1,26 +1,28 @@
-import React, { Component } from "react";
 import TopHeader from "../components/Layouts/TopHeader";
 import Navbar from "../components/Layouts/Navbar";
-import MainBanner from '../components/HomeOne/MainBanner';
-import BlogGridFullWidth from "../components/Blog/BlogGridFullWidth";
-import Footer from "../components/Layouts/Footer2";
-import Blogtwo from "../components/BlogDetails/BlogDetailsTwo";
-import Gallery from "./gallery-3";
+import PageBanner from "../components/Common/PageBanner";
+import GalleryThreeGridFullWidth from "../components/Gallery/GalleryThreeGridFullWidth";
+import FacilitySlider from "../components/Common/FacilitySlider";
+import InstagramFeed from "../components/Common/InstagramFeed";
+import Footer from "../components/Layouts/Footer";
 
-//import axios from 'axios';
-//import baseUrl from '../utils/baseUrl';
-const Index = ({user,products,store}) => {
+const Index = ({ user, store }) => {
   return (
     <>
       <TopHeader user={user} />
       <Navbar user={user} store={store} />
-   
-       <MainBanner />
-      <BlogGridFullWidth />
-     <Gallery />
-    <Blogtwo />
+      <PageBanner
+        pageTitle="Gallery Full Width (3 in Row)"
+        homePageUrl="/"
+        homePageText="Home"
+        activePageText="Gallery"
+      />
+      <GalleryThreeGridFullWidth />
+      <FacilitySlider />
+      <InstagramFeed />
       <Footer />
     </>
   );
 };
+
 export default Index;
