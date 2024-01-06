@@ -19,21 +19,21 @@ class BlogDetailsTwo extends Component {
                   <div className='entry-meta'>
                     <ul>
                       <li>
-                        <i className='bx bx-folder-open'></i>
+                     
                         <span>Category</span>
                         <Link href='#'>
                           Fashion
                         </Link>
                       </li>
                       <li>
-                        <i className='bx bx-group'></i>
+                      
                         <span>View</span>
                         <Link href='#'>
                           813,454
                         </Link>
                       </li>
                       <li>
-                        <i className='bx bx-calendar'></i>
+                     
                         <span>Last Updated</span>
                         <Link href='#'>
                           01/14/2019
@@ -110,19 +110,19 @@ class BlogDetailsTwo extends Component {
 
                   <ul className='features-list'>
                     <li>
-                      <i className='bx bx-badge-check'></i>
+                    
                       Scientific skills for getting a better result
                     </li>
                     <li>
-                      <i className='bx bx-badge-check'></i>
+                    
                       Communication skills to getting in touch
                     </li>
                     <li>
-                      <i className='bx bx-badge-check'></i>A career overview
+                    A career overview
                       opportunity available
                     </li>
                     <li>
-                      <i className='bx bx-badge-check'></i>A good work
+                A good work
                       environment for work
                     </li>
                   </ul>
@@ -149,7 +149,7 @@ class BlogDetailsTwo extends Component {
                 <div className='article-footer'>
                   <div className='article-tags'>
                     <span>
-                      <i className='bx bx-purchase-tag'></i>
+                    
                     </span>
 
                     <Link href='#'>
@@ -170,29 +170,26 @@ class BlogDetailsTwo extends Component {
                       </li>
                       <li>
                         <Link href='#'>
-                          <a className='facebook' target='_blank'>
-                            <i className='bx bxl-facebook'></i>
+                        
                           
                         </Link>
                       </li>
                       <li>
                         <Link href='#'>
-                          <a className='twitter' target='_blank'>
-                            <i className='bx bxl-twitter'></i>
+                      
                           
                         </Link>
                       </li>
                       <li>
                         <Link href='#'>
-                          <a className='linkedin' target='_blank'>
-                            <i className='bx bxl-linkedin'></i>
+                        
+                         
                           
                         </Link>
                       </li>
                       <li>
                         <Link href='#'>
-                          <a className='instagram' target='_blank'>
-                            <i className='bx bxl-instagram'></i>
+                      
                           
                         </Link>
                       </li>
@@ -220,8 +217,7 @@ class BlogDetailsTwo extends Component {
 
                         <div className='author-profile-raque-profile'>
                           <Link href='#'>
-                            <a className='d-inline-block'>
-                              View profile on Livani
+                          
                             
                           </Link>
                         </div>
