@@ -4,90 +4,30 @@ import Link from "next/link";
 const Footer = () => {
   	let currentYear = new Date().getFullYear();
 	return (
- 
-    <> 
-    <div className='flex flex-col items-start justify-around w-full p-20 bg-gray-50 h-1/2 md:flex-row'>
-      <div className='p-5'>
-        <ul>
-            <p className='pb-6 text-3xl font-bold text-gray-800'>
-                Stream <span className='text-blue-600'>line</span>
-            </p>
-            <div className='flex gap-6 pb-5'>
-                <FaInstagram className="text-2xl cursor-pointer hover:text-yellow-600" />
-				<FaTwitter className="text-2xl cursor-pointer hover:text-blue-600" />
-				<FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600" />
-				<FaYoutube className="text-2xl cursor-pointer hover:text-red-600" />
+	<footer>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Policy</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </ul>
-      </div>
-      <div className="p-5">
-        <ul>
-            <p className="pb-4 text-2xl font-bold text-gray-800">Product</p>
-            <li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
-                Stocks
-            </li>
-            <li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
-                Futures & Options
-            </li>
-            <li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
-                Mutual Funds
-            </li>
-            <li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
-                Fixed deposits
-            </li>
-        </ul>
-      </div>
-      <div className="p-5">
-					<ul>
-						<p className="pb-4 text-2xl font-bold text-gray-800">Company</p>
-						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
-							About
-						</li>
-						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
-							Products
-						</li>
-						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
-							Pricing
-						</li>
-						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
-							Careers
-						</li>
-						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
-							Press & Media
-						</li>
-					</ul>
-		</div>
-        <div className="p-5">
-					<ul>
-						<p className="pb-4 text-2xl font-bold text-gray-800">Support</p>
-						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
-							Contact
-						</li>
-						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
-							Support Portals
-						</li>
-						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
-							List Of Charges
-						</li>
-						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
-							Downloads & Resources
-						</li>
-						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
-							Videos
-						</li>
-					</ul>
-				</div>
-    </div>
-    <div className="flex flex-col items-center justify-center p-5 text-center bg-gray-50">
-				<h1 className="font-semibold text-gray-800 ">
-					
-					<span className="font-semibold cursor-pointer hover:text-blue-600">
-						streamline{" "}
-					</span>
-                    </h1>
-                    
-    </div>       
-    </>
+        </div>
+    </footer>
  
 	);
 };
