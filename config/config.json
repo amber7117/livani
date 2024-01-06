@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "123456",
-    "database": "livani",
-    "host": "127.0.0.1",
+    "username": "default",
+    "password": "wdYc0M1kSTnx",
+    "database": "verceldb",
+    "host": "ep-black-flower-43588462-pooler.us-east-1.postgres.vercel-storage.com",
    "dialect": "postgres"
   },
   "test": {
-    "username": "postgres",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
+    "username": "default",
+    "password": "wdYc0M1kSTnx",
+    "database": "verceldb",
+    "host": "ep-black-flower-43588462-pooler.us-east-1.postgres.vercel-storage.com",
    "dialect": "postgres"
   },
   "production": {
-    "username": "postgres",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "default",
+    "password": "wdYc0M1kSTnx",
+    "database": "verceldb",
+    "host": "ep-black-flower-43588462-pooler.us-east-1.postgres.vercel-storage.com",
    "dialect": "postgres"
   }
 }
