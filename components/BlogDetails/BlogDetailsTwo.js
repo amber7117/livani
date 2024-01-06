@@ -22,21 +22,21 @@ class BlogDetailsTwo extends Component {
                         <i className='bx bx-folder-open'></i>
                         <span>Category</span>
                         <Link href='#'>
-                          <a>Fashion</a>
+                          Fashion
                         </Link>
                       </li>
                       <li>
                         <i className='bx bx-group'></i>
                         <span>View</span>
                         <Link href='#'>
-                          <a>813,454</a>
+                          813,454
                         </Link>
                       </li>
                       <li>
                         <i className='bx bx-calendar'></i>
                         <span>Last Updated</span>
                         <Link href='#'>
-                          <a>01/14/2019</a>
+                          01/14/2019
                         </Link>
                       </li>
                     </ul>
@@ -153,13 +153,13 @@ class BlogDetailsTwo extends Component {
                     </span>
 
                     <Link href='#'>
-                      <a>Fashion</a>
+                      Fashion
                     </Link>
                     <Link href='#'>
-                      <a>Games</a>
+                      Games
                     </Link>
                     <Link href='#'>
-                      <a>Travel</a>
+                      Travel
                     </Link>
                   </div>
 
@@ -172,28 +172,28 @@ class BlogDetailsTwo extends Component {
                         <Link href='#'>
                           <a className='facebook' target='_blank'>
                             <i className='bx bxl-facebook'></i>
-                          </a>
+                          
                         </Link>
                       </li>
                       <li>
                         <Link href='#'>
                           <a className='twitter' target='_blank'>
                             <i className='bx bxl-twitter'></i>
-                          </a>
+                          
                         </Link>
                       </li>
                       <li>
                         <Link href='#'>
                           <a className='linkedin' target='_blank'>
                             <i className='bx bxl-linkedin'></i>
-                          </a>
+                          
                         </Link>
                       </li>
                       <li>
                         <Link href='#'>
                           <a className='instagram' target='_blank'>
                             <i className='bx bxl-instagram'></i>
-                          </a>
+                          
                         </Link>
                       </li>
                     </ul>
@@ -222,7 +222,7 @@ class BlogDetailsTwo extends Component {
                           <Link href='#'>
                             <a className='d-inline-block'>
                               View profile on Livani
-                            </a>
+                            
                           </Link>
                         </div>
                       </div>
@@ -238,7 +238,7 @@ class BlogDetailsTwo extends Component {
                   <div className='prev-link-wrapper'>
                     <div className='info-prev-link-wrapper'>
                       <Link href='#'>
-                        <a>
+                        
                           <span className='image-prev'>
                             <img
                               src='../images/blog/blog5.jpg'
@@ -258,7 +258,7 @@ class BlogDetailsTwo extends Component {
                               </span>
                             </span>
                           </span>
-                        </a>
+                 
                       </Link>
                     </div>
                   </div>
@@ -266,7 +266,7 @@ class BlogDetailsTwo extends Component {
                   <div className='next-link-wrapper'>
                     <div className='info-next-link-wrapper'>
                       <Link href='#'>
-                        <a>
+                      
                           <span className='next-link-info-wrapper'>
                             <span className='next-title'>
                               Building eCommerce wave: Social media shopping
@@ -285,7 +285,7 @@ class BlogDetailsTwo extends Component {
                             />
                             <span className='post-nav-title'>Next</span>
                           </span>
-                        </a>
+                        
                       </Link>
                     </div>
                   </div>
