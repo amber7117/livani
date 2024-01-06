@@ -1697,8 +1697,8 @@ $value_seven: 1550px;
 /* Min width 991px to Max width 991px */
 @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_four) {
     .navbar-area {
-        padding-top: 7px;
-        padding-bottom: 7px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         
         .main-nav {
             .navbar {
@@ -1709,8 +1709,8 @@ $value_seven: 1550px;
     .top-header {
         text-align: center;
         padding: {
-            top: 10px;
-            bottom: 10px;
+            top: 15px;
+            bottom: 15px;
         };
     }
     .top-header-discount-info {
