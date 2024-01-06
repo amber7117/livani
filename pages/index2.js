@@ -8,7 +8,7 @@ import InstagramFeed from "../components/Common/InstagramFeed";
 import Footer from "../components/Layouts/Footer2";
 //import axios from 'axios';
 //import baseUrl from '../utils/baseUrl';
-const Index = ({user,products,store}) => {
+const Index2 = ({user,products,store}) => {
   return (
     <>
       <TopHeader user={user} />
@@ -45,4 +45,4 @@ const Index = ({user,products,store}) => {
 //    },
 //  };
 // }
-export default Index;
+export default Index2;
