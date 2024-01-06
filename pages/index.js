@@ -6,8 +6,8 @@ import BlogGridFullWidth from "../components/Blog/BlogGridFullWidth";
 import FacilitySlider from "../components/Common/FacilitySlider";
 import InstagramFeed from "../components/Common/InstagramFeed";
 import Footer from "../components/Layouts/Footer";
-import axios from 'axios';
-import baseUrl from '../utils/baseUrl';
+//import axios from 'axios';
+//import baseUrl from '../utils/baseUrl';
 const Index = ({user,products,store}) => {
   return (
     <>
@@ -23,26 +23,26 @@ const Index = ({user,products,store}) => {
 };
 
 
-export async function getServerSideProps(ctx) {
-  const page = ctx.query.page ? ctx.query.page : '1';
+//export async function getServerSideProps(ctx) {
+//  const page = ctx.query.page ? ctx.query.page : '1';
 
-  const payload = {
-    params: {
-      page,
-      limit: 100,
-    }
-  };
+//  const payload = {
+//    params: {
+//      page,
+//      limit: 100,
+//    }
+//  };
+///
+//  const url = `${baseUrl}/api/v1/products`;
 
-  const url = `${baseUrl}/api/v1/products`;
+//  const response = await axios.get(url, payload);
+//  const { products, totalPages } = response.data;
 
-  const response = await axios.get(url, payload);
-  const { products, totalPages } = response.data;
-
-  return {
-    props: {
-      products,
-      totalPages,
-    },
-  };
-}
+  //return {
+//    props: {
+//      products,
+//      totalPages,
+//    },
+//  };
+// }
 export default Index;
