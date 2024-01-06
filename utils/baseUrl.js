@@ -1,5 +1,5 @@
 const baseUrl = process.env.NODE_ENV === "production" 
-? 'https://livani-hazel.vercel.app' 
-: 'http://livani-hazel.vercel.app';
+? 'https://liv-phi.vercel.app' 
+: 'http://liv-phi.vercel.app';
 
 export default baseUrl;
