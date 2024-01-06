@@ -52,7 +52,9 @@ class GalleryThreeGridFullWidth extends Component {
 
             <div className='col-lg-4 col-md-6'>
               <div className='single-gallery-item'>
+              <div className='article-video'>
               <iframe src="https://www.pornhub.com/embed/65769e14ee10c" width="528" height="526"></iframe>
+              </div>
 
                 <div className='gallery-content'>
                   <span>SHIRT</span>
