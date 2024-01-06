@@ -524,29 +524,9 @@ const Navbar = ({ user, store }) => {
 																	</Link>
 																</li>
 
-																<li>
-																	<Link
-																		href="/customer-service"
-																		activeClassName="active"
-																	>
-																		<a>
-																			Customer
-																			Service
-																		</a>
-																	</Link>
-																</li>
+																 
 
-																<li>
-																	<Link
-																		href="/contact"
-																		activeClassName="active"
-																	>
-																		<a>
-																			Contact
-																			Us
-																		</a>
-																	</Link>
-																</li>
+																 
 															</ul>
 														</div>
 													</div>
@@ -557,7 +537,11 @@ const Navbar = ({ user, store }) => {
 
 									
 
-
+												) : (
+													""
+												)}
+											</ul>
+										</li>
 									)}
 								</ul>
 							</div>
