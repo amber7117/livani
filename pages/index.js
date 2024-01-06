@@ -9,7 +9,8 @@ import InstagramFeed from "../components/Common/InstagramFeed";
 import Footer from "../components/Layouts/Footer2";
 import CommentsList from './CommentsList';
 import BlogSidebar from '../Blog/BlogSidebar';
-const Index = ({user,products,store}) => {
+
+const index = ({user,products,store}) => {
 return (
 <>
 <TopHeader user={user} />
