@@ -116,7 +116,7 @@ class GalleryThreeGridFullWidth extends Component {
             </div>
 
             <div className='col-lg-4 col-md-6'>
-              <div className='single-gallery-item'>
+               <div className='article-video'>
                <iframe src="https://www.pornhub.com/embed/657b20c45d388" frameborder="0" width="528" height="526" scrolling="no" allowfullscreen></iframe>
 
                 <div className='gallery-content'>
@@ -137,11 +137,8 @@ class GalleryThreeGridFullWidth extends Component {
             </div>
 
             <div className='col-lg-4 col-md-6'>
-              <div className='single-gallery-item'>
-                <img
-                  src='../images/gallery/gallery5.jpg'
-                  alt='image'
-                />
+               <div className='article-video'>
+                <iframe src="https://www.pornhub.com/embed/6478b624850bf" frameborder="0" width="528" height="526" scrolling="no" allowfullscreen></iframe>
 
                 <div className='gallery-content'>
                   <span>T-SHIRT</span>
@@ -161,11 +158,8 @@ class GalleryThreeGridFullWidth extends Component {
             </div>
 
             <div className='col-lg-4 col-md-6'>
-              <div className='single-gallery-item'>
-                <img
-                  src='../images/gallery/gallery6.jpg'
-                  alt='image'
-                />
+               <div className='article-video'>
+                <iframe src="https://www.pornhub.com/embed/ph5fb6b0bb38c31" frameborder="0" width="520" height="526" scrolling="no" allowfullscreen></iframe>
 
                 <div className='gallery-content'>
                   <span>T-SHIRT</span>
@@ -186,10 +180,7 @@ class GalleryThreeGridFullWidth extends Component {
 
             <div className='col-lg-4 col-md-6'>
               <div className='single-gallery-item'>
-                <img
-                  src='../images/gallery/gallery7.jpg'
-                  alt='image'
-                />
+                <iframe src="https://www.pornhub.com/embed/650396bad2717" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
 
                 <div className='gallery-content'>
                   <span>ECOSMART</span>
@@ -210,10 +201,7 @@ class GalleryThreeGridFullWidth extends Component {
 
             <div className='col-lg-4 col-md-6'>
               <div className='single-gallery-item'>
-                <img
-                  src='../images/gallery/gallery8.jpg'
-                  alt='image'
-                />
+                <iframe src="https://www.pornhub.com/embed/64d573c7bf3da" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
 
                 <div className='gallery-content'>
                   <span>SMART SHIRT</span>
