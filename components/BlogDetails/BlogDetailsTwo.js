@@ -21,6 +21,27 @@ class BlogDetailsTwo extends Component {
   <div className='article-video'>
       <iframe src="https://www.pornhub.com/embed/64da8334365f7" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
       </div>
+ <div className='article-video'>
+      <iframe src="https://www.pornhub.com/embed/6478b624850bf" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
+      </div>
+       <div className='article-video'>
+      <iframe src="https://www.pornhub.com/embed/657b20c45d388" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
+      </div>
+       <div className='article-video'>
+
+ <div className='article-video'>
+<iframe src="https://www.pornhub.com/embed/65687ea9e3e96" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
+      </div>
+       <div className='article-video'>
+<iframe src="https://www.pornhub.com/embed/ph6149f33dcbe3a" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
+      </div>
+      
+       <div className='article-video'>
+      <iframe src="https://www.pornhub.com/embed/65769e14ee10c" frameborder="0" width="560" height="315" scrolling="no" allowfullscreen></iframe>
+      </div>
+
+
+      
                 <div className='article-content'>
                   <div className='entry-meta'>
                     <ul>
