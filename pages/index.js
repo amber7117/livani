@@ -1,11 +1,26 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import TopHeader from "../components/Layouts/TopHeader";
+import Navbar from "../components/Layouts/Navbar";
+import MainBanner from '../components/HomeOne/MainBanner';
+import BlogGridFullWidth from "../components/Blog/BlogGridFullWidth";
+import FacilitySlider from "../components/Common/FacilitySlider";
+import InstagramFeed from "../components/Common/InstagramFeed";
+import Footer from "../components/Layouts/Footer2";
 import CommentsList from './CommentsList';
 import BlogSidebar from '../Blog/BlogSidebar';
 
-class Index extends Component {
-  render() {
-    return (
+
+
+const Index = ({user,products,store}) => {
+  return (
+    <>
+    
+ <TopHeader user={user} />
+      <Navbar user={user} store={store} />
+       <MainBanner />
+      <BlogGridFullWidth />
+      
       <section className='blog-details-area ptb-100'>
         <div className='container'>
           <div className='row'>
@@ -256,5 +271,8 @@ class Index extends Component {
     );
   }
 }
+  
+    </>
+    <Footer />
 
 export default Index;
