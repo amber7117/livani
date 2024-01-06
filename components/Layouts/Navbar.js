@@ -76,11 +76,14 @@ const Navbar = ({ user, store }) => {
 		<>
 			<div id="navbar" className="navbar-area">
 				<div className="main-nav">
-					<div className="container-fluid">
+					<div className="container">
 						<nav className="navbar navbar-expand-lg navbar-light">
 							<Link href="/">
 								<a className="navbar-brand">
-									<img src="../images/logo.png" alt="logo" />
+									<img
+										src="../../images/logo.png"
+										alt="logo"
+									/>
 								</a>
 							</Link>
 
@@ -460,7 +463,7 @@ const Navbar = ({ user, store }) => {
 
 																<li>
 																	<Link
-																		href="/login"
+																		href="/profile"
 																		activeClassName="active"
 																	>
 																		<a>
@@ -566,7 +569,7 @@ const Navbar = ({ user, store }) => {
 
 																<li>
 																	<Link
-																		href="/error-404"
+																		href="/404"
 																		activeClassName="active"
 																	>
 																		<a>
@@ -851,7 +854,7 @@ const Navbar = ({ user, store }) => {
 
 																<li>
 																	<Link
-																		href="/login"
+																		href="/profile"
 																		activeClassName="active"
 																	>
 																		<a>
@@ -1121,7 +1124,7 @@ const Navbar = ({ user, store }) => {
 																<li>
 																	<div className="aside-trending-products">
 																		<img
-																			src="../images/categories/categories3.jpg"
+																			src="../../images/categories/categories3.jpg"
 																			alt="image"
 																		/>
 
@@ -1350,7 +1353,7 @@ const Navbar = ({ user, store }) => {
 																<li>
 																	<div className="aside-trending-products">
 																		<img
-																			src="../images/categories/categories4.jpg"
+																			src="../../images/categories/categories4.jpg"
 																			alt="image"
 																		/>
 
