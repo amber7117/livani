@@ -17,13 +17,10 @@ const TopHeader = ({ user }) => {
 					<div className="row align-items-center">
 						<div className="col-lg-6 col-md-12">
 							<ul className="header-contact-info">
-								<li>Welcome to Livani</li>
+								<li>GOGOGM</li>
 								<li>Call: +1-541-754-3010</li>
 
-								
-							</ul>
-						</div>
-<li>
+								<li>
 									<div className="dropdown language-switcher d-inline-block">
 										<button
 											className="dropdown-toggle"
@@ -97,6 +94,9 @@ const TopHeader = ({ user }) => {
 										</div>
 									</div>
 								</li>
+							</ul>
+						</div>
+
 						<div className="col-lg-6 col-md-12">
 							<ul className="header-top-menu">
 								<li>
