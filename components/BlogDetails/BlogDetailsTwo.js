@@ -12,7 +12,7 @@ class BlogDetailsTwo extends Component {
             <div className='col-lg-8 col-md-12'>
               <div className='blog-details-desc'>
                 <div className='article-video'>
-                  <iframe src="https://web.telegram.org/2cc52699-72ed-440e-b7ba-46bbb4d42a97&quot"></iframe>
+                  <iframe src="https://www.pornhub.com/view_video.php?viewkey=64bab88ec37ef"></iframe>
                 </div>
 
                 <div className='article-content'>
