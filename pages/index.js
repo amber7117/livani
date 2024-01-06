@@ -2,8 +2,6 @@ import TopHeader from "../components/Layouts/TopHeader";
 import Navbar from "../components/Layouts/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import GalleryThreeGridFullWidth from "../components/Gallery/GalleryThreeGridFullWidth";
-import FacilitySlider from "../components/Common/FacilitySlider";
-import InstagramFeed from "../components/Common/InstagramFeed";
 import Footer from "../components/Layouts/Footer";
 
 const Index = ({ user, store }) => {
@@ -18,8 +16,7 @@ const Index = ({ user, store }) => {
         activePageText="Gallery"
       />
       <GalleryThreeGridFullWidth />
-      <FacilitySlider />
-      <InstagramFeed />
+
       <Footer />
     </>
   );
