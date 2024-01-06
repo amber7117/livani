@@ -126,6 +126,266 @@ const Navbar = ({ user, store }) => {
 											</a>
 										</Link>
 
+										<ul className="dropdown-menu">
+											<li className="nav-item">
+												<div className="container">
+													<div className="row">
+														<div className="col">
+															<h6 className="submenu-title">
+																Shop Styles
+															</h6>
+
+															<ul className="megamenu-submenu">
+																<li>
+																	<Link
+																		href="/products-left-sidebar"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Left
+																			Sidebar
+																		</a>
+																	</Link>
+																</li>
+																				<li className="nav-item">
+												<Link
+													href="/furniture"
+													activeClassName="active"
+												>
+													<a className="nav-link">
+														Furniture Store
+														<span>New</span>
+													</a>
+												</Link>
+											</li>
+
+																<li>
+																	<Link
+																		href="/products-left-sidebar-with-categories"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Left
+																			Sidebar
+																			With
+																			Categories
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/categories-1"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Categories
+																			(2
+																			in
+																			Row)
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/categories-4"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Categories
+																			Full
+																			Width
+																			(3
+																			in
+																			Row)
+																		</a>
+																	</Link>
+																</li>
+															</ul>
+														</div>
+
+														<div className="col">
+															<h6 className="submenu-title">
+																Shop Styles 2
+															</h6>
+
+															<ul className="megamenu-submenu">
+																<li>
+																	<Link
+																		href="/products-right-sidebar"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Right
+																			Sidebar
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/products-right-sidebar-with-categories"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Right
+																			Sidebar
+																			With
+																			Categories
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/categories-2"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Categories
+																			Fullwidth
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/lookbook-1"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Grid
+																			(3
+																			in
+																			Row)
+																		</a>
+																	</Link>
+																</li>
+															</ul>
+														</div>
+
+														<div className="col">
+															<h6 className="submenu-title">
+																Shop Styles 3
+															</h6>
+
+															<ul className="megamenu-submenu">
+																<li>
+																	<Link
+																		href="/products-without-sidebar"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Without
+																			Sidebar
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/products-sidebar-fullwidth"
+																		activeClassName="active"
+																	>
+																		<a>
+																			With
+																			Sidebar
+																			Full
+																			Width
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/categories-3"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Categories
+																			(1
+																			in
+																			Row)
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/lookbook-2"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Grid
+																			Full
+																			Width
+																			(4
+																			in
+																			Row)
+																		</a>
+																	</Link>
+																</li>
+															</ul>
+														</div>
+
+														<div className="col">
+															<h6 className="submenu-title">
+																Product Pages
+															</h6>
+
+															<ul className="megamenu-submenu">
+																<li>
+																	<Link
+																		href="/cart"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Cart
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/checkout"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Checkout
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/profile"
+																		activeClassName="active"
+																	>
+																		<a>
+																			My
+																			Account
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/sizing-guide"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Sizing
+																			Guide
+																		</a>
+																	</Link>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</li>
+										</ul>
 									</li>
 
 									<li className="nav-item megamenu">
@@ -524,9 +784,29 @@ const Navbar = ({ user, store }) => {
 																	</Link>
 																</li>
 
-																 
+																<li>
+																	<Link
+																		href="/customer-service"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Customer
+																			Service
+																		</a>
+																	</Link>
+																</li>
 
-																 
+																<li>
+																	<Link
+																		href="/contact"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Contact
+																			Us
+																		</a>
+																	</Link>
+																</li>
 															</ul>
 														</div>
 													</div>
@@ -535,8 +815,606 @@ const Navbar = ({ user, store }) => {
 										</ul>
 									</li>
 
-									
+									<li className="nav-item megamenu">
+										<Link href="#">
+											<a className="nav-link">
+												Women's{" "}
+												<i className="bx bx-chevron-down"></i>
+											</a>
+										</Link>
 
+										<ul className="dropdown-menu">
+											<li className="nav-item">
+												<div className="container">
+													<div className="row">
+														<div className="col">
+															<h6 className="submenu-title">
+																Shop Styles
+															</h6>
+
+															<ul className="megamenu-submenu">
+																<li>
+																	<Link
+																		href="/products-left-sidebar"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Left
+																			Sidebar
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/products-left-sidebar-with-categories"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Left
+																			Sidebar
+																			With
+																			Categories
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/categories-1"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Categories
+																			(2
+																			in
+																			Row)
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/categories-4"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Categories
+																			Full
+																			Width
+																			(3
+																			in
+																			Row)
+																		</a>
+																	</Link>
+																</li>
+															</ul>
+														</div>
+
+														<div className="col">
+															<h6 className="submenu-title">
+																Shop Styles 2
+															</h6>
+
+															<ul className="megamenu-submenu">
+																<li>
+																	<Link
+																		href="/products-right-sidebar"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Right
+																			Sidebar
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/products-right-sidebar-with-categories"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Right
+																			Sidebar
+																			With
+																			Categories
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/categories-2"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Categories
+																			Fullwidth
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/lookbook-1"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Grid
+																			(3
+																			in
+																			Row)
+																		</a>
+																	</Link>
+																</li>
+															</ul>
+														</div>
+
+														<div className="col">
+															<h6 className="submenu-title">
+																Shop Styles 3
+															</h6>
+
+															<ul className="megamenu-submenu">
+																<li>
+																	<Link
+																		href="/products-without-sidebar"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Without
+																			Sidebar
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/products-sidebar-fullwidth"
+																		activeClassName="active"
+																	>
+																		<a>
+																			With
+																			Sidebar
+																			Full
+																			Width
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/categories-3"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Categories
+																			(1
+																			in
+																			Row)
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/lookbook-2"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Grid
+																			Full
+																			Width
+																			(4
+																			in
+																			Row)
+																		</a>
+																	</Link>
+																</li>
+															</ul>
+														</div>
+
+														<div className="col">
+															<ul className="megamenu-submenu">
+																<li>
+																	<div className="aside-trending-products">
+																		<img
+																			src="../../images/categories/categories3.jpg"
+																			alt="image"
+																		/>
+
+																		<div className="category">
+																			<h4>
+																				Popular
+																				Products
+																			</h4>
+																		</div>
+
+																		<Link href="#">
+																			<a className="link-btn"></a>
+																		</Link>
+																	</div>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</li>
+
+									<li className="nav-item megamenu">
+										<Link href="#">
+											<a className="nav-link">
+												Men's{" "}
+												<i className="bx bx-chevron-down"></i>
+											</a>
+										</Link>
+
+										<ul className="dropdown-menu">
+											<li className="nav-item">
+												<div className="container">
+													<div className="row">
+														<div className="col">
+															<h6 className="submenu-title">
+																Shop Styles
+															</h6>
+
+															<ul className="megamenu-submenu">
+																<li>
+																	<Link
+																		href="/products-left-sidebar"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Left
+																			Sidebar
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/products-left-sidebar-with-categories"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Left
+																			Sidebar
+																			With
+																			Categories
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/categories-1"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Categories
+																			(2
+																			in
+																			Row)
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/categories-4"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Categories
+																			Full
+																			Width
+																			(3
+																			in
+																			Row)
+																		</a>
+																	</Link>
+																</li>
+															</ul>
+														</div>
+
+														<div className="col">
+															<h6 className="submenu-title">
+																Shop Styles 2
+															</h6>
+
+															<ul className="megamenu-submenu">
+																<li>
+																	<Link
+																		href="/products-right-sidebar"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Right
+																			Sidebar
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/products-right-sidebar-with-categories"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Right
+																			Sidebar
+																			With
+																			Categories
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/categories-2"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Categories
+																			Fullwidth
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/lookbook-1"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Grid
+																			(3
+																			in
+																			Row)
+																		</a>
+																	</Link>
+																</li>
+															</ul>
+														</div>
+
+														<div className="col">
+															<h6 className="submenu-title">
+																Shop Styles 3
+															</h6>
+
+															<ul className="megamenu-submenu">
+																<li>
+																	<Link
+																		href="/products-without-sidebar"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Without
+																			Sidebar
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/products-sidebar-fullwidth"
+																		activeClassName="active"
+																	>
+																		<a>
+																			With
+																			Sidebar
+																			Full
+																			Width
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/categories-3"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Categories
+																			(1
+																			in
+																			Row)
+																		</a>
+																	</Link>
+																</li>
+
+																<li>
+																	<Link
+																		href="/lookbook-2"
+																		activeClassName="active"
+																	>
+																		<a>
+																			Grid
+																			Full
+																			Width
+																			(4
+																			in
+																			Row)
+																		</a>
+																	</Link>
+																</li>
+															</ul>
+														</div>
+
+														<div className="col">
+															<ul className="megamenu-submenu">
+																<li>
+																	<div className="aside-trending-products">
+																		<img
+																			src="../../images/categories/categories4.jpg"
+																			alt="image"
+																		/>
+
+																		<div className="category">
+																			<h4>
+																				Popular
+																				Products
+																			</h4>
+																		</div>
+
+																		<Link href="#">
+																			
+																		</Link>
+																	</div>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</li>
+
+									<li className="nav-item">
+										<Link href="#">
+											
+										</Link>
+
+										<ul className="dropdown-menu">
+											<li className="nav-item">
+												<Link href="/blog-1" activeClassName="active">
+													
+												</Link>
+											</li>
+
+											<li className="nav-item">
+												<Link
+													href="/blog-2"
+													activeClassName="active"
+												>
+													
+												</Link>
+											</li>
+
+											<li className="nav-item">
+												<Link
+													href="/blog-3"
+													activeClassName="active"
+												>
+													
+												</Link>
+											</li>
+
+											<li className="nav-item">
+												<Link
+													href="/blog-4"
+													activeClassName="active"
+												>
+													
+												</Link>
+											</li>
+
+											<li className="nav-item">
+												<Link
+													href="/blog-5"
+													activeClassName="active"
+												>
+													
+												</Link>
+											</li>
+
+											<li className="nav-item">
+												<Link href="#">
+													
+												</Link>
+
+												<ul className="dropdown-menu">
+													<li className="nav-item">
+														<Link
+															href="/single-blog-1"
+															activeClassName="active"
+														>
+															
+														</Link>
+													</li>
+
+													<li className="nav-item">
+														<Link
+															href="/single-blog-2"
+															activeClassName="active"
+														>
+															
+														</Link>
+													</li>
+
+													<li className="nav-item">
+														<Link
+															href="/single-blog-3"
+															activeClassName="active"
+														>
+															
+														</Link>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+
+									<li className="nav-item">
+										<Link
+											href="/sale-request"
+											activeClassName="active"
+										>
+											
+										</Link>
+									</li>
+
+									{user && (
+										<li className="nav-item">
+											<Link href="#">
+												
+											</Link>
+
+											<ul className="dropdown-menu">
+												{user.role === "admin" ||
+												user.role === "super-admin" ? (
+													<li className="nav-item">
+														<Link
+															href="/admin/dashboard"
+															activeClassName="active"
+														>
+														
+														</Link>
+													</li>
+												) : (
+													""
+												)}
+
+												<li className="nav-item">
+													<Link
+														href="/profile"
+														activeClassName="active"
+													>
+														
+													</Link>
+												</li>
+
+												<li className="nav-item">
+													<Link
+														href="/my-orders-history"
+														activeClassName="active"
+													>
+														
+													</Link>
+												</li>
+												{store &&
+												store.status === "approved" ? (
+													<li className="nav-item">
+														<Link
+															href="/stores/dashboard"
+															activeClassName="active"
+														>
+															
+														</Link>
+													</li>
 												) : (
 													""
 												)}
@@ -552,31 +1430,21 @@ const Navbar = ({ user, store }) => {
 										className="search-btn-box"
 										onClick={toggleModalSearch}
 									>
-										<i className="search-btn bx bx-search-alt"></i>
+										
 									</div>
 								</div>
 
 								<div className="option-item">
 									<div className="cart-btn">
 										<Link href="#toggleModalCart">
-											<a
-												onClick={(e) => {
-													e.preventDefault();
-													toggleModalCart();
-												}}
-											>
-												<i className="bx bx-shopping-bag"></i>
-												<span>{cartItems.length}</span>
-											</a>
+										
 										</Link>
 									</div>
 								</div>
 
 								<div className="option-item">
-									<div
-										className="burger-menu"
-										onClick={toggleModalSidebar}
-									>
+									<div className="burger-menu"
+										onClick={toggleModalSidebar}>
 										<span className="top-bar"></span>
 										<span className="middle-bar"></span>
 										<span className="bottom-bar"></span>
