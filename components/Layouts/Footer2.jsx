@@ -80,8 +80,7 @@ const Footer = () => {
     </div>
     <div className="flex flex-col items-center justify-center p-5 text-center bg-gray-50">
 				<h1 className="font-semibold text-gray-800 ">
-					© 2019-2021 All rights reserved | Build with ❤ by{" "}
-					© 2021-2022 All rights reserved | Build with ❤ by{" "}
+					
 					<span className="font-semibold cursor-pointer hover:text-blue-600">
 						streamline{" "}
 					</span>
