@@ -1,148 +1,97 @@
 import Link from "next/link";
+import React from 'react'
 
 const Footer = () => {
   	let currentYear = new Date().getFullYear();
 	return (
-    <footer className="footer-area">
-			<div className="container">
-<div>
-  <footer className="text-gray-800 w-4/5 mx-auto inter md:pt-24">
-    <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-      <div className="flex-grow flex flex-wrap -mb-10 md:mt-0 mt-10 md:text-left text-center">
-        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 className="font-medium text-gray-900 text-base mb-3">
-            About
-          </h2>
-          <nav className="list-none mb-10 flex flex-col text-sm space-y-3 font-normal">
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                Company News
-              </a>
-            </li>
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                Meet the Team
-              </a>
-            </li>
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                Press Releases
-              </a>
-            </li>
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                Roadmap
-              </a>
-            </li>
-          </nav>
-        </div>
-        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 className="font-medium text-gray-900 text-base mb-3">
-            Company
-          </h2>
-          <nav className="list-none mb-10 flex flex-col space-y-3 text-sm font-normal">
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                Company News
-              </a>
-            </li>
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                Meet the Team
-              </a>
-            </li>
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                Press Releases
-              </a>
-            </li>
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                Roadmap
-              </a>
-            </li>
-          </nav>
-        </div>
-        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 className="font-medium text-gray-900 text-base mb-3">
-            Contact
-          </h2>
-          <nav className="list-none mb-10 flex flex-col space-y-3 text-sm font-normal">
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                Get in Touch
-              </a>
-            </li>
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                Feedback
-              </a>
-            </li>
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                Feature Requests
-              </a>
-            </li>
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                Roadmap
-              </a>
-            </li>
-          </nav>
-        </div>
-        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 className="font-medium text-gray-900 text-base mb-3">
-            Developers
-          </h2>
-          <nav className="list-none mb-10 flex flex-col space-y-3 text-sm font-normal">
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                Documentation
-              </a>
-            </li>
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                Press Releases
-              </a>
-            </li>
-            <li>
-              <a className="text-gray-600 hover:text-gray-800 cursor-pointer">
-                Roadmap
-              </a>
-            </li>
-          </nav>
-        </div>
+ 
+    <> 
+    <div className='flex flex-col items-start justify-around w-full p-20 bg-gray-50 h-1/2 md:flex-row'>
+      <div className='p-5'>
+        <ul>
+            <p className='pb-6 text-3xl font-bold text-gray-800'>
+                Stream <span className='text-blue-600'>line</span>
+            </p>
+            <div className='flex gap-6 pb-5'>
+                <FaInstagram className="text-2xl cursor-pointer hover:text-yellow-600" />
+				<FaTwitter className="text-2xl cursor-pointer hover:text-blue-600" />
+				<FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600" />
+				<FaYoutube className="text-2xl cursor-pointer hover:text-red-600" />
+            </div>
+        </ul>
       </div>
-    </div>
-  </footer>
-  <div className="w-4/5 mx-auto py-2 md:mt-12 text-sm">
-    <hr className="h-px bg-gray-500 opacity-30 border-0 mb-4" />
-    <div className="flex items-center mx-auto text-gray-600 container justify-center md:justify-between py-2">
-      <div>
-        <span className="font-normal">
-          © Copyright 2024, All Rights Reserved{' '}
-        </span>
+      <div className="p-5">
+        <ul>
+            <p className="pb-4 text-2xl font-bold text-gray-800">Product</p>
+            <li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
+                Stocks
+            </li>
+            <li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
+                Futures & Options
+            </li>
+            <li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
+                Mutual Funds
+            </li>
+            <li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
+                Fixed deposits
+            </li>
+        </ul>
       </div>
-      <a
-        className="items-center gap-2 hidden md:flex"
-        href="#"
-        rel="noopener noreferrer"
-      >
-        <span className="hover:underline focus-visible:underline">
-          Learn More
-        </span>
-      </a>
+      <div className="p-5">
+					<ul>
+						<p className="pb-4 text-2xl font-bold text-gray-800">Company</p>
+						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
+							About
+						</li>
+						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
+							Products
+						</li>
+						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
+							Pricing
+						</li>
+						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
+							Careers
+						</li>
+						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
+							Press & Media
+						</li>
+					</ul>
+		</div>
+        <div className="p-5">
+					<ul>
+						<p className="pb-4 text-2xl font-bold text-gray-800">Support</p>
+						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
+							Contact
+						</li>
+						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
+							Support Portals
+						</li>
+						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
+							List Of Charges
+						</li>
+						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
+							Downloads & Resources
+						</li>
+						<li className="pb-2 font-semibold text-gray-500 cursor-pointer text-md hover:text-blue-600">
+							Videos
+						</li>
+					</ul>
+				</div>
     </div>
-  </div>
-</div>
-
-        			</div>
-		</footer>
+    <div className="flex flex-col items-center justify-center p-5 text-center bg-gray-50">
+				<h1 className="font-semibold text-gray-800 ">
+					© 2019-2021 All rights reserved | Build with ❤ by{" "}
+					© 2021-2022 All rights reserved | Build with ❤ by{" "}
+					<span className="font-semibold cursor-pointer hover:text-blue-600">
+						streamline{" "}
+					</span>
+                    </h1>
+                    
+    </div>       
+    </>
+  )
+}
+ 
 	);
 };
 
