@@ -17,6 +17,7 @@ import "../public/scss/styles.css";
 import "../public/scss/nprogress.css";
 import "../public/scss/responsive.css";
 import "../public/scss/dashboard.css";
+import "../public/scss/footer.css";
 
 import GoTop from "../components/Shared/GoTop";
 import Loader from "../components/Shared/Loader";
