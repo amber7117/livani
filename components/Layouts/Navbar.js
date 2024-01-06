@@ -127,86 +127,7 @@ const Navbar = ({ user, store }) => {
 												</Link>
 											</li>
 
-											<li className="nav-item">
-												<Link
-													href="/fashion-style-two"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Fashion Style Two
-													</a>
-												</Link>
-											</li>
-
-											<li className="nav-item">
-												<Link
-													href="/fashion-style-three"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Fashion Style Three
-													</a>
-												</Link>
-											</li>
-
-											<li className="nav-item">
-												<Link
-													href="/fashion-style-four"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Fashion Style Four
-													</a>
-												</Link>
-											</li>
-
-											<li className="nav-item">
-												<Link
-													href="/fashion-style-five"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Fashion Style Five
-													</a>
-												</Link>
-											</li>
-
-											<li className="nav-item">
-												<Link
-													href="/covid19"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Covid-19 Store
-														<span>New</span>
-													</a>
-												</Link>
-											</li>
-
-											<li className="nav-item">
-												<Link
-													href="/grocery"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Grocery Store
-														<span>New</span>
-													</a>
-												</Link>
-											</li>
-
-											<li className="nav-item">
-												<Link
-													href="/electronics"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Electronics Store
-														<span>New</span>
-													</a>
-												</Link>
-											</li>
-
+											
 											<li className="nav-item">
 												<Link
 													href="/furniture"
@@ -219,17 +140,7 @@ const Navbar = ({ user, store }) => {
 												</Link>
 											</li>
 
-											<li className="nav-item">
-												<Link
-													href="/jewelry"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Jewelry Store
-														<span>New</span>
-													</a>
-												</Link>
-											</li>
+										 
 										</ul>
 									</li>
 
