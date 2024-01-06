@@ -5,7 +5,7 @@ import MainBanner from '../components/HomeOne/MainBanner';
 import BlogGridFullWidth from "../components/Blog/BlogGridFullWidth";
 import FacilitySlider from "../components/Common/FacilitySlider";
 import InstagramFeed from "../components/Common/InstagramFeed";
-import Footer from "../components/Layouts/Footer";
+import Footer from "../components/Layouts/Footer2";
 //import axios from 'axios';
 //import baseUrl from '../utils/baseUrl';
 const Index = ({user,products,store}) => {
