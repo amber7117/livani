@@ -76,14 +76,11 @@ const Navbar = ({ user, store }) => {
 		<>
 			<div id="navbar" className="navbar-area">
 				<div className="main-nav">
-					<div className="container">
+					<div className="container-fluid">
 						<nav className="navbar navbar-expand-lg navbar-light">
 							<Link href="/">
 								<a className="navbar-brand">
-									<img
-										src="../../images/logo.png"
-										alt="logo"
-									/>
+									<img src="../images/logo.png" alt="logo" />
 								</a>
 							</Link>
 
@@ -115,7 +112,122 @@ const Navbar = ({ user, store }) => {
 											</a>
 										</Link>
 
-									
+										<ul className="dropdown-menu">
+											<li className="nav-item">
+												<Link
+													href="/"
+													activeClassName="active"
+												>
+													<a className="nav-link">
+														Fashion Style One
+													</a>
+												</Link>
+											</li>
+
+											<li className="nav-item">
+												<Link
+													href="/fashion-style-two"
+													activeClassName="active"
+												>
+													<a className="nav-link">
+														Fashion Style Two
+													</a>
+												</Link>
+											</li>
+
+											<li className="nav-item">
+												<Link
+													href="/fashion-style-three"
+													activeClassName="active"
+												>
+													<a className="nav-link">
+														Fashion Style Three
+													</a>
+												</Link>
+											</li>
+
+											<li className="nav-item">
+												<Link
+													href="/fashion-style-four"
+													activeClassName="active"
+												>
+													<a className="nav-link">
+														Fashion Style Four
+													</a>
+												</Link>
+											</li>
+
+											<li className="nav-item">
+												<Link
+													href="/fashion-style-five"
+													activeClassName="active"
+												>
+													<a className="nav-link">
+														Fashion Style Five
+													</a>
+												</Link>
+											</li>
+
+											<li className="nav-item">
+												<Link
+													href="/covid19"
+													activeClassName="active"
+												>
+													<a className="nav-link">
+														Covid-19 Store
+														<span>New</span>
+													</a>
+												</Link>
+											</li>
+
+											<li className="nav-item">
+												<Link
+													href="/grocery"
+													activeClassName="active"
+												>
+													<a className="nav-link">
+														Grocery Store
+														<span>New</span>
+													</a>
+												</Link>
+											</li>
+
+											<li className="nav-item">
+												<Link
+													href="/electronics"
+													activeClassName="active"
+												>
+													<a className="nav-link">
+														Electronics Store
+														<span>New</span>
+													</a>
+												</Link>
+											</li>
+
+											<li className="nav-item">
+												<Link
+													href="/furniture"
+													activeClassName="active"
+												>
+													<a className="nav-link">
+														Furniture Store
+														<span>New</span>
+													</a>
+												</Link>
+											</li>
+
+											<li className="nav-item">
+												<Link
+													href="/jewelry"
+													activeClassName="active"
+												>
+													<a className="nav-link">
+														Jewelry Store
+														<span>New</span>
+													</a>
+												</Link>
+											</li>
+										</ul>
 									</li>
 
 									<li className="nav-item megamenu">
@@ -147,17 +259,6 @@ const Navbar = ({ user, store }) => {
 																		</a>
 																	</Link>
 																</li>
-																				<li className="nav-item">
-												<Link
-													href="/furniture"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Furniture Store
-														<span>New</span>
-													</a>
-												</Link>
-											</li>
 
 																<li>
 																	<Link
@@ -359,7 +460,7 @@ const Navbar = ({ user, store }) => {
 
 																<li>
 																	<Link
-																		href="/profile"
+																		href="/login"
 																		activeClassName="active"
 																	>
 																		<a>
@@ -465,7 +566,7 @@ const Navbar = ({ user, store }) => {
 
 																<li>
 																	<Link
-																		href="/404"
+																		href="/error-404"
 																		activeClassName="active"
 																	>
 																		<a>
@@ -750,7 +851,7 @@ const Navbar = ({ user, store }) => {
 
 																<li>
 																	<Link
-																		href="/profile"
+																		href="/login"
 																		activeClassName="active"
 																	>
 																		<a>
@@ -1020,7 +1121,7 @@ const Navbar = ({ user, store }) => {
 																<li>
 																	<div className="aside-trending-products">
 																		<img
-																			src="../../images/categories/categories3.jpg"
+																			src="../images/categories/categories3.jpg"
 																			alt="image"
 																		/>
 
@@ -1249,7 +1350,7 @@ const Navbar = ({ user, store }) => {
 																<li>
 																	<div className="aside-trending-products">
 																		<img
-																			src="../../images/categories/categories4.jpg"
+																			src="../images/categories/categories4.jpg"
 																			alt="image"
 																		/>
 
@@ -1261,7 +1362,7 @@ const Navbar = ({ user, store }) => {
 																		</div>
 
 																		<Link href="#">
-																			
+																			<a className="link-btn"></a>
 																		</Link>
 																	</div>
 																</li>
@@ -1275,13 +1376,21 @@ const Navbar = ({ user, store }) => {
 
 									<li className="nav-item">
 										<Link href="#">
-											
+											<a className="nav-link">
+												Blog{" "}
+												<i className="bx bx-chevron-down"></i>
+											</a>
 										</Link>
 
 										<ul className="dropdown-menu">
 											<li className="nav-item">
-												<Link href="/blog-1" activeClassName="active">
-													
+												<Link
+													href="/blog-1"
+													activeClassName="active"
+												>
+													<a className="nav-link">
+														Grid (2 in Row)
+													</a>
 												</Link>
 											</li>
 
@@ -1290,7 +1399,9 @@ const Navbar = ({ user, store }) => {
 													href="/blog-2"
 													activeClassName="active"
 												>
-													
+													<a className="nav-link">
+														Grid (3 in Row)
+													</a>
 												</Link>
 											</li>
 
@@ -1299,7 +1410,9 @@ const Navbar = ({ user, store }) => {
 													href="/blog-3"
 													activeClassName="active"
 												>
-													
+													<a className="nav-link">
+														Grid (4 in Row)
+													</a>
 												</Link>
 											</li>
 
@@ -1308,7 +1421,9 @@ const Navbar = ({ user, store }) => {
 													href="/blog-4"
 													activeClassName="active"
 												>
-													
+													<a className="nav-link">
+														Grid (Full Width)
+													</a>
 												</Link>
 											</li>
 
@@ -1317,13 +1432,18 @@ const Navbar = ({ user, store }) => {
 													href="/blog-5"
 													activeClassName="active"
 												>
-													
+													<a className="nav-link">
+														Right Sidebar
+													</a>
 												</Link>
 											</li>
 
 											<li className="nav-item">
 												<Link href="#">
-													
+													<a className="nav-link">
+														Single Post{" "}
+														<i className="bx bx-chevron-right"></i>
+													</a>
 												</Link>
 
 												<ul className="dropdown-menu">
@@ -1332,7 +1452,9 @@ const Navbar = ({ user, store }) => {
 															href="/single-blog-1"
 															activeClassName="active"
 														>
-															
+															<a className="nav-link">
+																Default
+															</a>
 														</Link>
 													</li>
 
@@ -1341,7 +1463,9 @@ const Navbar = ({ user, store }) => {
 															href="/single-blog-2"
 															activeClassName="active"
 														>
-															
+															<a className="nav-link">
+																With Video
+															</a>
 														</Link>
 													</li>
 
@@ -1350,7 +1474,10 @@ const Navbar = ({ user, store }) => {
 															href="/single-blog-3"
 															activeClassName="active"
 														>
-															
+															<a className="nav-link">
+																With Image
+																Slider
+															</a>
 														</Link>
 													</li>
 												</ul>
@@ -1363,14 +1490,17 @@ const Navbar = ({ user, store }) => {
 											href="/sale-request"
 											activeClassName="active"
 										>
-											
+											<a className="nav-link">Sale ?</a>
 										</Link>
 									</li>
 
 									{user && (
 										<li className="nav-item">
 											<Link href="#">
-												
+												<a className="nav-link">
+													{user && user.name}
+													<i className="bx bx-chevron-down"></i>
+												</a>
 											</Link>
 
 											<ul className="dropdown-menu">
@@ -1381,7 +1511,9 @@ const Navbar = ({ user, store }) => {
 															href="/admin/dashboard"
 															activeClassName="active"
 														>
-														
+															<a className="nav-link">
+																Dashboard
+															</a>
 														</Link>
 													</li>
 												) : (
@@ -1393,7 +1525,10 @@ const Navbar = ({ user, store }) => {
 														href="/profile"
 														activeClassName="active"
 													>
-														
+														<a className="nav-link">
+															{" "}
+															My Profile
+														</a>
 													</Link>
 												</li>
 
@@ -1402,7 +1537,9 @@ const Navbar = ({ user, store }) => {
 														href="/my-orders-history"
 														activeClassName="active"
 													>
-														
+														<a className="nav-link">
+															My Order History
+														</a>
 													</Link>
 												</li>
 												{store &&
@@ -1412,7 +1549,9 @@ const Navbar = ({ user, store }) => {
 															href="/stores/dashboard"
 															activeClassName="active"
 														>
-															
+															<a className="nav-link">
+																Store Dashboard
+															</a>
 														</Link>
 													</li>
 												) : (
@@ -1430,21 +1569,31 @@ const Navbar = ({ user, store }) => {
 										className="search-btn-box"
 										onClick={toggleModalSearch}
 									>
-										
+										<i className="search-btn bx bx-search-alt"></i>
 									</div>
 								</div>
 
 								<div className="option-item">
 									<div className="cart-btn">
 										<Link href="#toggleModalCart">
-										
+											<a
+												onClick={(e) => {
+													e.preventDefault();
+													toggleModalCart();
+												}}
+											>
+												<i className="bx bx-shopping-bag"></i>
+												<span>{cartItems.length}</span>
+											</a>
 										</Link>
 									</div>
 								</div>
 
 								<div className="option-item">
-									<div className="burger-menu"
-										onClick={toggleModalSidebar}>
+									<div
+										className="burger-menu"
+										onClick={toggleModalSidebar}
+									>
 										<span className="top-bar"></span>
 										<span className="middle-bar"></span>
 										<span className="bottom-bar"></span>
