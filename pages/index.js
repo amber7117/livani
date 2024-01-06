@@ -7,6 +7,8 @@ import FacilitySlider from "../components/Common/FacilitySlider";
 import InstagramFeed from "../components/Common/InstagramFeed";
 import Footer from "../components/Layouts/Footer2";
 import Blogtwo from "../components/BlogDetails/BlogDetailsTwo";
+import Gallery from "./gallery-3";
+
 //import axios from 'axios';
 //import baseUrl from '../utils/baseUrl';
 const Index = ({user,products,store}) => {
@@ -14,6 +16,7 @@ const Index = ({user,products,store}) => {
     <>
       <TopHeader user={user} />
       <Navbar user={user} store={store} />
+    <Gallery />
     <Blogtwo />
        <MainBanner />
       <BlogGridFullWidth />
