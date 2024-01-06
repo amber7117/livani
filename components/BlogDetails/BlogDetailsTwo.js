@@ -48,33 +48,7 @@ class BlogDetailsTwo extends Component {
                     </ul>
                   </div>
 
-                  <h3>The #1 eCommerce blog to grow your business</h3>
 
-                  <p>
-                    Quuntur magni dolores eos qui ratione voluptatem sequi
-                    nesciunt. Neque porro quia non numquam eius modi tempora
-                    incidunt ut labore et dolore magnam dolor sit amet,
-                    consectetur adipisicing.
-                  </p>
-
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in sed quia non
-                    numquam eius modi tempora incidunt ut labore et dolore
-                    magnam aliquam quaerat voluptatem.
-                  </p>
-
-                  <blockquote>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout.
-                    </p>
-                    <cite>Tom Cruise</cite>
-                  </blockquote>
 
                   <p>
                     Quuntur magni dolores eos qui ratione voluptatem sequi
@@ -93,63 +67,12 @@ class BlogDetailsTwo extends Component {
                       </figure>
                     </li>
 
-                    <li className='blocks-gallery-item'>
-                      <figure>
-                        <img
-                          src='../images/blog/blog2.jpg'
-                          alt='image'
-                        />
-                      </figure>
-                    </li>
-
-                    <li className='blocks-gallery-item'>
-                      <figure>
-                        <img
-                          src='../images/blog/blog3.jpg'
-                          alt='image'
-                        />
-                      </figure>
-                    </li>
+ 
                   </ul>
 
-                  <h3>Four major elements that we offer:</h3>
 
-                  <ul className='features-list'>
-                    <li>
-                      <i className='bx bx-badge-check'></i>
-                      Scientific skills for getting a better result
-                    </li>
-                    <li>
-                      <i className='bx bx-badge-check'></i>
-                      Communication skills to getting in touch
-                    </li>
-                    <li>
-                      <i className='bx bx-badge-check'></i>A career overview
-                      opportunity available
-                    </li>
-                    <li>
-                      <i className='bx bx-badge-check'></i>A good work
-                      environment for work
-                    </li>
-                  </ul>
-
-                  <h3>Setting the mood with incense</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in sed quia non
-                    numquam eius modi tempora incidunt ut labore et dolore
-                    magnam aliquam quaerat voluptatem.
-                  </p>
-
-                  <h3>The rise of marketing and why you need it</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud.
-                  </p>
+         
+           
                 </div>
 
                 <div className='article-footer'>
