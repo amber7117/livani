@@ -44,16 +44,16 @@ class BlogDetailsThree extends Component {
                     className='article-image-slides owl-carousel owl-theme'
                     {...options}
                   >
-                    <div className='article-image'>
-                      <img src='../images/blog/blog-slider1.jpg' alt='image' />
+                    <div className='article-video'>
+                      <iframe src="https://www.pornhub.com/embed/ph6149f33dcbe3a" frameborder="0" width="528" height="526" scrolling="no" allowfullscreen></iframe>
                     </div>
 
-                    <div className='article-image'>
-                      <img src='../images/blog/blog-slider2.jpg' alt='image' />
+                    <div className='article-video'>
+                       <iframe src="https://www.pornhub.com/embed/65769e14ee10c" width="528" height="526"></iframe>
                     </div>
 
-                    <div className='article-image'>
-                      <img src='../images/blog/blog-slider3.jpg' alt='image' />
+                    <div className='article-video'>
+                      <iframe src="https://www.pornhub.com/embed/65687ea9e3e96" frameborder="0" width="528" height="526" scrolling="no" allowfullscreen></iframe>
                     </div>
                   </OwlCarousel>
                 ) : (
