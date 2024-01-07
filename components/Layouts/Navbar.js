@@ -174,7 +174,7 @@ const Navbar = ({ user, store }) => {
 									<li className="nav-item">
 										<Link href="#">
 											<a className="nav-link">
-												Blog{" "}
+												Video{" "}
 												<i className="bx bx-chevron-down"></i>
 											</a>
 										</Link>
