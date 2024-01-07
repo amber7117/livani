@@ -81,7 +81,7 @@ const Navbar = ({ user, store }) => {
 							<Link href="/">
 								<a className="navbar-brand">
 									<img
-										src="../../images/logo.png"
+										src="../../images/logo1.png"
 										alt="logo"
 									/>
 								</a>
@@ -157,7 +157,7 @@ const Navbar = ({ user, store }) => {
 									<li className="nav-item megamenu">
 										<Link href="#">
 											<a className="nav-link">
-												Services{" "}
+												Photo{" "}
 												<i className="bx bx-chevron-down"></i>
 											</a>
 										</Link>
