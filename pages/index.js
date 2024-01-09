@@ -9,7 +9,6 @@ const Index = ({ user, store }) => {
     <>
       <TopHeader user={user} />
       <Navbar user={user} store={store} />
-       
       <BlogDetailsThree />
  
       <Footer />
