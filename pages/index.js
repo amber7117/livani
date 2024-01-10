@@ -6,7 +6,11 @@ import BlogDetailsThree from "../components/BlogDetails/BlogDetailsThree";
 import Footer from "../components/Layouts/Footer2";
 import RecentProducts from '../components/Shared/RecentProducts';
 
-const Index = ({ user, store }) => {
+import axios from 'axios';
+import baseUrl from '../utils/baseUrl';
+
+
+const Index = ({ user, products, store }) => {
   return (
     <>
       <TopHeader user={user} />
@@ -18,6 +22,33 @@ const Index = ({ user, store }) => {
     </>
   );
 };
+
+
+export async function getServerSideProps(ctx) {
+  const page = ctx.query.page ? ctx.query.page : '1';
+
+  const payload = {
+    params: {
+      page,
+      limit: 100,
+    },
+  };
+
+  const url = `${baseUrl}/api/v1/products`;
+
+  const response = await axios.get(url, payload);
+  const { products } = response.data;
+
+  return {
+    props: {
+      products
+    },
+  };
+}
+
+
+
+
 
 export default Index;
 
